@@ -1,0 +1,35 @@
+.Header2{
+    margin-left: 20px;
+    position: sticky;
+
+}
+
+.Header2__look > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style-type: none;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 19px;
+}
+
+ul li:hover{
+    cursor: pointer;
+}
+
+.Header2__All{
+    background-color: black;
+    color: white;
+}

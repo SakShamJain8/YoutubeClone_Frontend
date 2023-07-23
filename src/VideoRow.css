@@ -1,0 +1,31 @@
+.videoRow{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.videoRow > img{
+    object-fit: contain;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.videoRow__text{
+    margin-left: 14px;
+}
+
+.videoRow__description{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #606060;
+}
+
+.videoRow__headline{
+    font-size: 12px;
+    color: #606060;
+}
+
+.videoRow__channel{
+    font-size: 12px;
+    color: #606060;
+}

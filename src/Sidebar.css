@@ -1,0 +1,13 @@
+.sidebar{
+    flex: 0.2 !important;
+    overflow-y: auto;
+    position: relative;
+}
+
+.sidebar > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
